@@ -1,0 +1,101 @@
+body {
+    background: #efa29b; /* no CSS3 support */
+    background: -webkit-linear-gradient(#efa29b, #32020b); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(#efa29b, #32020b); /* Firefox 3.6 to 15 */
+    background: linear-gradient(#efa29b, #32020b); /* Standard */
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', 'Times New Roman';
+    font-size: 500%;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Fredericka the Great', 'Times New Roman';
+    font-size: 200%;
+    color: #000000;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'IM Fell English';
+    font-size: 100%;
+    color: #ffffff;
+}
+    
+p {
+    font-family: 'IM Fell English';
+    font-size: 100%;
+    padding: 10%;
+    color: #000000;
+}
+
+a {
+    font-family: 'IM Fell English';
+    font-size: 100%;
+    color: #ffffff;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5%;
+  background-color: none;
+}
+    
+.box {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+}
+
+.box2 {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+.grow {
+  height: 20px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  overflow: hidden;
+}
+
+.grow:hover {
+  height: 100%;
+}
+
+footer {
+    font-family: 'IM Fell English';
+    font-size: 100%;
+    color: #ffffff;
+}
+
+///
+
+.boxHover    {  width:300px;
+           height:200px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+.overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+.boxHover:hover #overlay {
+               opacity:1;}
+
