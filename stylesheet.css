@@ -54,10 +54,11 @@ a {
   height: 200px;
 }
 
-.box2 {
+.artBox {
   display: inline-block;
-  width: 50%;
-  height: 50%;
+  width: 275px;
+  height: 275px;
+  margin: 5%;
 }
 
 .grow {
