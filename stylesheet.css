@@ -47,13 +47,6 @@ a {
   background-color: none;
 }
     
-.homeBox {
-  align: center;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-}
-
 .artBox {
   display: inline-block;
   width: 275px;
@@ -79,4 +72,72 @@ footer {
     color: #ffffff;
 }
 
-/*http://codepen.io/ianfarb/pen/ikeAf*/
+.homeBox1 {  
+    align: center;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background:url(/images/about1_copy.svg);
+    background-size:cover;
+    overflow:hidden;
+}
+
+.homeBox2 {  
+    align: center;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background:url(/images/about2.svg);
+    background-size:cover;
+    overflow:hidden;
+}
+
+.homeBox3 {  
+    align: center;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background:url(/images/about3.svg);
+    background-size:cover;
+    overflow:hidden;
+}
+
+.homeBox4 {  
+    align: center;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background:url(/images/about4.svg);
+    background-size:cover;
+    overflow:hidden;
+}
+
+.overlay    {  text-align:center;
+               background:url(/images/about_hover-01-01.svg);
+               padding:40% 0% 100% 0%;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+               -moz-transition: opacity .25s ease;
+}
+
+.homeBox1:hover .overlay {
+               opacity:.75;
+}
+
+.homeBox2:hover .overlay {
+               opacity:.75;
+}
+
+.homeBox3:hover .overlay {
+               opacity:.75;
+}
+
+.homeBox4:hover .overlay {
+               opacity:.75;
+}
+
+.homeText {  font-family: 'Fredericka the Great';
+             font-weight: 900;
+             font-size:200%;
+             color: #32020b;
+}
