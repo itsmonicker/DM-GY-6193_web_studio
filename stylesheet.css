@@ -61,6 +61,7 @@ a.zeroSpace:hover {
   left: 0;
   padding: 5%;
   background-color: none;
+  /*float: left;*/
 }
     
 .artBox {
