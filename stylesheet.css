@@ -31,6 +31,7 @@ p {
     font-family: 'IM Fell English';
     font-size: 100%;
     color: #000000;
+    text-align: left;
 }
 
 a {
@@ -46,13 +47,8 @@ h1.zeroSpace {
 }
 
 h3.zeroSpace {
-    color: #a6a6a6;
     padding: 0px;
     margin: 0px;
-}
-
-a.zeroSpace {
-    color: #CECECE;
 }
 
 a.zeroSpace:hover {
@@ -136,8 +132,8 @@ footer {
                background:url(/images/about_hover-01-01.svg);
                padding:40% 0% 100% 0%;
                opacity:0;
-               -webkit-transition: opacity .25s ease;
-               -moz-transition: opacity .25s ease;
+               -webkit-transition: opacity .1s ease;
+               -moz-transition: opacity .1s ease;
 }
 
 .homeBox1:hover .overlay {
