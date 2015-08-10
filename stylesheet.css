@@ -8,14 +8,14 @@ body {
 }
 
 h1 {
-    font-family: 'Fredericka the Great', 'Times New Roman';
+    font-family: 'Fredericka the Great';
     font-size: 500%;
     color: #ffffff;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Fredericka the Great', 'Times New Roman';
+    font-family: 'Fredericka the Great';
     font-size: 200%;
     color: #000000;
     text-align: center;
@@ -38,6 +38,25 @@ a {
     font-size: 100%;
     color: #ffffff;
     text-decoration: none;
+}
+
+h1.zeroSpace {
+    padding: 0px;
+    margin: 0px;
+}
+
+h3.zeroSpace {
+    color: #a6a6a6;
+    padding: 0px;
+    margin: 0px;
+}
+
+a.zeroSpace {
+    color: #CECECE;
+}
+
+a.zeroSpace:hover {
+    color: #32020b;
 }
 
 .fixed {
